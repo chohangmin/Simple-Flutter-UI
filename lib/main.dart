@@ -5,12 +5,7 @@ import 'package:toonflix/widgets/Button.dart';
 import 'package:toonflix/widgets/currency_card.dart';
 
 void main() {
-  var min = Player();
   runApp(const App());
-}
-
-class Player {
-  String? name;
 }
 
 class App extends StatelessWidget {
