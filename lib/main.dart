@@ -117,6 +117,7 @@ class App extends StatelessWidget {
                   height: 20,
                 ),
                 const CurrencyCard(
+                  offsetY: 0,
                   name: 'Euro',
                   code: 'EUR',
                   amount: '6 428',
@@ -126,6 +127,7 @@ class App extends StatelessWidget {
                 Transform.translate(
                   offset: const Offset(0, -20),
                   child: const CurrencyCard(
+                      offsetY: -20,
                       name: 'Bitcoin',
                       code: 'BTC',
                       amount: '9 785',
@@ -135,6 +137,7 @@ class App extends StatelessWidget {
                 Transform.translate(
                   offset: const Offset(0, -40),
                   child: const CurrencyCard(
+                      offsetY: -40,
                       name: 'Dollar',
                       code: 'USD',
                       amount: '13 854',
